@@ -1,0 +1,33 @@
+{
+  "name": "wows-servers-config-patch",
+  "version": "1.0.0",
+  "description": "Enable adding additional servers to your WOWS. (You can choose the added servers from the list at the login page of WOWS)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momocow/WOWS-Servers-Config-Patch.git"
+  },
+  "keywords": [
+    "wows",
+    "servers",
+    "scripts_config.xml"
+  ],
+  "author": "MomoCow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/momocow/WOWS-Servers-Config-Patch/issues"
+  },
+  "homepage": "https://github.com/momocow/WOWS-Servers-Config-Patch#readme",
+  "dependencies": {
+    "socket.io": "^2.0.3",
+    "windows-shortcuts": "^0.1.6",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

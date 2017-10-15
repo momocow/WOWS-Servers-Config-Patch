@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# distributables
+dist/
+
+# nexe runtime
+.nexe/
