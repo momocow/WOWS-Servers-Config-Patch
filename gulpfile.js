@@ -11,7 +11,7 @@ _gulp.task('release', function(){
     build: true,
     target: 'windows-x64-8.5.0',
     ico: './assets/icon/wows.ico',
-    resources: ['./node_modules/windows-shortcuts/lib/shortcut/Shortcut.exe'],
+    resources: ['./node_modules/windows-shortcuts/lib/shortcut/Shortcut.exe', './assets/data/servers.xml'],
     loglevel: 'verbose'
   }).then(() => {
     console.log('A release is built for Windows-x64')
