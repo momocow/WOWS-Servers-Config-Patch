@@ -1,7 +1,7 @@
 {
-  "name": "wows-servers-config-patch",
+  "name": "wows-servers-patch",
   "version": "1.0.0",
-  "description": "Enable adding additional servers to your WOWS. (You can choose the added servers from the list at the login page of WOWS)",
+  "description": "[WIP] Enable adding existing servers to your WOWS. It currently supports to add the NA server ONLY. (You can choose the added servers from the list at the login page of WOWS)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/momocow/WOWS-Servers-Config-Patch#readme",
   "dependencies": {
+    "fs-extra": "^4.0.2",
     "socket.io": "^2.0.3",
     "windows-shortcuts": "^0.1.6",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "fs-extra": "^4.0.2",
     "gulp": "^3.9.1",
     "nexe": "^2.0.0-rc.11"
   }

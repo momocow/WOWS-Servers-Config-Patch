@@ -1,0 +1,4 @@
+        <host alias="WOWS NA" csis="http://csis.worldoftanks.com/csis/wowssg " realm="na">
+            <master addr="login2.worldofwarships.com:20020"/>
+            <master addr="login1.worldofwarships.com:20020"/>
+        </host>
