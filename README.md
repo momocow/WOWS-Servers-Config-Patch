@@ -1,3 +1,7 @@
+> 此倉庫已封存, 僅留作紀錄用, 不再維護或開發。
+
+> 你的 WOWS 遊戲若有切換伺服器的需求, 請參考[這個工具](http://hakamod.blogspot.com/2016/09/hakamod-pack-installer.html)。
+
 # 戰艦世界伺服器新增工具 (WOWS-Servers-Patch)
 > 聲明：本程式僅提供**Windows 64位元**之系統執行，其他版本的系統不保證執行的正確性
 
